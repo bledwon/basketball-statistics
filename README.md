@@ -7,10 +7,8 @@ This repo contains my **solutions** to the end‑of‑chapter exercises from *Le
 - `solutions/ch02_python.md`
 - `solutions/ch03_pandas.md`
 - `solutions/ch04_sql.md`
-- `solutions/ch05_web_scraping.md`
 - `solutions/ch06_data_viz.md`
 - `solutions/ch07_modeling.md`
-- `solutions/ch08_intermediate_coding.md`
 - `scripts/` — runnable scripts for Chapters 3, 6, 7
 - `figures/` — generated plots from Chapter 6
 
