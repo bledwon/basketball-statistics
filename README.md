@@ -11,6 +11,8 @@ This repo contains my **solutions** to the end‑of‑chapter exercises from *Le
 - `solutions/ch06_data_viz.md`
 - `solutions/ch07_modeling.md`
 - `solutions/ch08_intermediate_coding.md`
+- `scripts/` — runnable scripts for Chapters 3, 6, 7
+- `figures/` — generated plots from Chapter 6
 
 ## Tools Used
 - Python (pandas, matplotlib, statsmodels, scikit‑learn)
@@ -21,5 +23,6 @@ This repo contains my **solutions** to the end‑of‑chapter exercises from *Le
 ## Notes
 - The PDF book is **not** included in this repo.
 - Some exercises depend on local datasets referenced in the book (e.g., `./data/...`). The solutions show the code and logic; you can plug in your local paths to run them.
+  - Set `DATA_DIR` when running scripts, e.g. `DATA_DIR=/path/to/data python3 scripts/ch06_viz.py`.
 
 If you want me to convert any chapter into runnable scripts or notebooks, I can do that next.
