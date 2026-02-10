@@ -15,6 +15,8 @@ This repo contains my **solutions** to the end‑of‑chapter exercises from *Le
 ## Tableau Dashboard
 I built a **strong, interactive Tableau dashboard** to explore team shooting behavior and outcomes, with linked views for distributions, scatter relationships, and team rankings.
 
+**Insights snapshot:** The distributions show heavy clustering around low‑to‑mid 3PA ranges, while the scatter suggests only a weak relationship between 3PT volume and FT%. Team‑level views highlight clear variation in 3PA volume and win rates, making it easy to spot outliers and potential strategic styles.
+
 Key views:
 - 3PT Attempts Distribution (Win vs Loss)
 - 3PT Attempts vs FT% (scatter with win/loss color)
