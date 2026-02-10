@@ -12,6 +12,22 @@ This repo contains my **solutions** to the end‑of‑chapter exercises from *Le
 - `scripts/` — runnable scripts for Chapters 3, 6, 7
 - `figures/` — generated plots from Chapter 6
 
+## Tableau Dashboard
+I built a **strong, interactive Tableau dashboard** to explore team shooting behavior and outcomes, with linked views for distributions, scatter relationships, and team rankings.
+
+Key views:
+- 3PT Attempts Distribution (Win vs Loss)
+- 3PT Attempts vs FT% (scatter with win/loss color)
+- Average 3PT Attempts by Team
+- Win Rate by Team
+
+Images:
+![Tableau NBA Data Dashboard](figures/Tableau%20NBA%20Data%20Dashboard.png)
+![3PT Attempts Distribution](figures/3PT%20Attempts%20Distribution.png)
+![3PT Attempts vs FT percent](figures/3PT%20Attempts%20vs%20FT%20percent.png)
+![Average 3PT Attempts by Team](figures/Average%203PT%20Attempts%20by%20Team.png)
+![Win Rate by Team](figures/Win%20Rate%20by%20Team.png)
+
 ## Tools Used
 - Python (pandas, matplotlib, statsmodels, scikit‑learn)
 - R (dplyr, ggplot2, randomForest)
