@@ -44,6 +44,8 @@ This section is **separate from the chapter exercises** and focuses on a busines
 - **Defense (lower DRtg)** is strongly associated with higher win%.
 - **Pace** has little relationship with win%.
 
+**Implications for team strategy:** Prioritize shot quality (eFG%) and possession care (TOV%) while building a defense that can consistently suppress opponent efficiency. Pace can be a stylistic choice, but it should not come at the expense of efficiency and defensive execution.
+
 **Data + visuals generated with Python:**
 - `analysis/data/nba_2024_25_team_styles.csv`
 - `analysis/scripts/team_style_insights.py`
