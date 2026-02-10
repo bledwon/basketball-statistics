@@ -30,6 +30,34 @@ Images:
 ![Average 3PT Attempts by Team](figures/Average%203PT%20Attempts%20by%20Team.png)
 ![Win Rate by Team](figures/Win%20Rate%20by%20Team.png)
 
+## Business Insight: Team Styles That Drive Wins (2024–25)
+This section is **separate from the chapter exercises** and focuses on a business‑style question using league‑wide team stats.
+
+**Business question:** Which team styles are most associated with winning?
+
+**Data source:** Team advanced stats and standings (RealGM, 2024–25).
+
+**Summary of findings (2024–25):**
+- **Efficiency margin (net rating)** is the strongest driver of win%.
+- **Shooting efficiency (eFG%)** is strongly positive with win%.
+- **Turnovers (TOV%)** are strongly negative with win%.
+- **Defense (lower DRtg)** is strongly associated with higher win%.
+- **Pace** has little relationship with win%.
+
+**Data + visuals generated with Python:**
+- `analysis/data/nba_2024_25_team_styles.csv`
+- `analysis/scripts/team_style_insights.py`
+- `figures/insight_corr_winpct.png`
+- `figures/insight_efg_winpct.png`
+- `figures/insight_tov_winpct.png`
+- `figures/insight_drtg_winpct.png`
+
+Images:
+![Correlation With Win%](figures/insight_corr_winpct.png)
+![Shooting Efficiency vs Win%](figures/insight_efg_winpct.png)
+![Turnover Rate vs Win%](figures/insight_tov_winpct.png)
+![Defensive Rating vs Win%](figures/insight_drtg_winpct.png)
+
 ## Tools Used
 - Python (pandas, matplotlib, statsmodels, scikit‑learn)
 - R (dplyr, ggplot2, randomForest)
@@ -40,5 +68,3 @@ Images:
 - The PDF book is **not** included in this repo.
 - Some exercises depend on local datasets referenced in the book (e.g., `./data/...`). The solutions show the code and logic; you can plug in your local paths to run them.
   - Set `DATA_DIR` when running scripts, e.g. `DATA_DIR=/path/to/data python3 scripts/ch06_viz.py`.
-
-If you want me to convert any chapter into runnable scripts or notebooks, I can do that next.
